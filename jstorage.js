@@ -357,6 +357,7 @@
     };
 
     // Initialize jStorage
+  if (!window.btapp)
     _init();
 
 })(window.jQuery || window.$);
